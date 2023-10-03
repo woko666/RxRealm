@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => "v" + s.version.to_s }
   s.swift_version = "5.1"
 
-  s.ios.deployment_target = "11.0"
+  s.ios.deployment_target = "12.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "3.0"
